@@ -2,7 +2,7 @@
 
 ## Work in Progress!
 
-This repository holds the interface for [PSR-20](psr-url).
+This repository holds the interface for [PSR-20][psr-url].
 
 Note that this is not a clock of its own. It is merely an interface that
 describes a clock. See the specification for more details.
@@ -54,7 +54,7 @@ class Foo
 }
 ```
 
-You can then pick one of the [implementations](implementation-url) of the interface to get a clock.
+You can then pick one of the [implementations][implementation-url] of the interface to get a clock.
 
 If you want to implement the interface, you can require this package and
 implement `Psr\Clock\ClockInterface` in your code. 
@@ -69,7 +69,7 @@ Don't forget to add `psr/clock-implementation` to your `composer.json`s `provide
 }
 ```
 
-And please read the [specification text](specification-url) for details on the interface.
+And please read the [specification text][specification-url] for details on the interface.
 
 [psr-url]: https://www.php-fig.org/psr/psr-20
 [package-url]: https://packagist.org/packages/psr/clock
