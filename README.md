@@ -16,7 +16,7 @@ describes a clock. See the specification for more details.
 ## Installation
 
 ```bash
-# Remember: This PSR is not yet proposed and 
+# Remember: This PSR is not yet accepted and 
 # might change at any time 
 # without prior notice
 composer require psr/clock
@@ -30,7 +30,7 @@ If you need a clock, you can use the interface like this:
 <?php
 
 /*
- * Remember: This PSR is not yet proposed and 
+ * Remember: This PSR is not yet accepted and 
  * might change at any time 
  * without prior notice
  */
