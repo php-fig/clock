@@ -30,7 +30,7 @@ use Psr\Clock\ClockInterface;
 
 class Foo
 {
-    private $clock;
+    private ClockInterface $clock;
 
     public function __construct(ClockInterface $clock)
     {
@@ -40,7 +40,7 @@ class Foo
     public function doSomething()
     {
         /** @var DateTimeImmutable $currentDateAndTime */
-        $currentDateAndTime = $this->clock()->now();
+        $currentDateAndTime = $this->clock->now();
         // do something useful with that information
     }
 }
