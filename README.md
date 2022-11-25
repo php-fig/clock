@@ -58,4 +58,4 @@ And please read the [specification text][specification-url] for details on the i
 [psr-url]: https://www.php-fig.org/psr/psr-20
 [package-url]: https://packagist.org/packages/psr/clock
 [implementation-url]: https://packagist.org/providers/psr/clock-implementation
-[specification-url]: https://github.com/php-fig/fig-standards/blob/master/proposed/clock.md
+[specification-url]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-20-clock.md
