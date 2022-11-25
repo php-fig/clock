@@ -1,17 +1,9 @@
-# [WIP] PSR Clock
-
-## Work in Progress!
+# PSR Clock
 
 This repository holds the interface for [PSR-20][psr-url].
 
 Note that this is not a clock of its own. It is merely an interface that
 describes a clock. See the specification for more details.
-
-**CAVEAT:** This is currently **Work in Progress**! 
-
-**Do not (I repeat: Do NOT) rely on this interface being stable!**
-
-**Using this as long as the PSR is not officially released happens at your own risk!**
 
 ## Installation
 
