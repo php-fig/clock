@@ -43,11 +43,11 @@ You can then pick one of the [implementations][implementation-url] of the interf
 If you want to implement the interface, you can require this package and
 implement `Psr\Clock\ClockInterface` in your code. 
 
-Don't forget to add `psr/clock-implementation` to your `composer.json`s `provides`-section like this:
+Don't forget to add `psr/clock-implementation` to your `composer.json`s `provide`-section like this:
 
 ```json
 {
-  "provides": {
+  "provide": {
     "psr/clock-implementation": "1.0"
   }
 }
