@@ -10,6 +10,9 @@
       "homepage": "https://www.php-fig.org/"
     }
   ],
+  "support": {
+    "source": "https://github.com/php-fig/clock"
+  },
   "require": {
     "php": "^7.0 || ^8.0"
   },
